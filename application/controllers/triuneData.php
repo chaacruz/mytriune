@@ -11,7 +11,7 @@ class triuneData extends MY_Controller {
 	 * Since this controller is set as the default controller in
 	 * config/routes.php, it's displayed at http://tua.edu.ph/triune
 	 *
-	 * AUTHOR: Abigail Gusto
+	 * AUTHOR: Charlene Cruz
 	 * DESCRIPTION: Data Controller.  
 	 * DATE CREATED: April 22, 2018
      * DATE UPDATED: April 26, 2018

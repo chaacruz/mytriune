@@ -11,7 +11,7 @@ class triuneAuth extends MY_Controller {
 	 * Since this controller is set as the default controller in
 	 * config/routes.php, it's displayed at http://tua.edu.ph/triune
 	 *
-	 * AUTHOR: Abigail Gusto
+	 * AUTHOR: Charlene Cruz
 	 * DESCRIPTION: Authentication Controller. Included login, registration, reset password, create token
 	 * DATE CREATED: May 16, 2018
      * DATE UPDATED: May 16,, 2018

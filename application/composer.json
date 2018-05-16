@@ -1,12 +1,12 @@
 {
-    "name": "abbygusto/mytriune",
+    "name": "chaacruz/mytriune",
     "description": "triune application",
     "type": "project",
     "license": "GPL 3.o",
     "authors": [
         {
-            "name": "Abigail Gusto",
-            "email": "abbygusto@gmail.com"
+            "name": "Charlene Cruz",
+            "email": "charleneandreaecruz@tua.edu.ph"
         }
     ],
     "require": {
