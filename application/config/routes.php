@@ -66,7 +66,14 @@ $route['getFloor'] = 'triuneData/getFloor';
 $route['getRoomNumber'] = 'triuneData/getRoomNumber'; 
 $route['setRequestBAM'] = 'triuneData/setRequestBAM'; 
 $route['insertRequestBAM'] = 'triuneData/insertRequestBAM'; 
-$route['uploadFile'] = 'triuneFile/uploadFile'; 
+$route['uploadFile'] = 'triuneFile/uploadFile';
+$route['ictjrs/create']= 'triuneJRS/ICTCreateRequest';
+$route['ictjrs/getCreateConfirmation'] = 'triuneJRS/ICTCreateRequestConfirmation';
+$route['ictjrs/getCreatedRequest'] = 'triuneJRS/ICTCreatedRequest';
+$route['getJobClassification'] = 'triuneData/getJobClassification';
+$route['setRequestICT'] = 'triuneData/setRequestICT'; 
+$route['insertRequestICT'] = 'triuneData/insertRequestICT'; 
+
 
 
 $route['404_override'] = '';

@@ -1,12 +1,12 @@
 {
-    "name": "rdlagdaan/mytriune",
+    "name": "abbygusto/mytriune",
     "description": "triune application",
     "type": "project",
     "license": "GPL 3.o",
     "authors": [
         {
-            "name": "Randy Lagdaan",
-            "email": "rdlagdaan@gmail.com"
+            "name": "Abigail Gusto",
+            "email": "abbygusto@gmail.com"
         }
     ],
     "require": {

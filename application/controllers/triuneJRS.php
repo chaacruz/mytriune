@@ -11,10 +11,10 @@ class triuneJRS extends MY_Controller {
 	 * Since this controller is set as the default controller in
 	 * config/routes.php, it's displayed at http://tua.edu.ph/triune
 	 *
-	 * AUTHOR: Randy D. Lagdaan
+	 * AUTHOR: Abigail Gusto
 	 * DESCRIPTION: JRS Controller. Included 
-	 * DATE CREATED: April 21, 2018
-     * DATE UPDATED: April 21, 2018
+	 * DATE CREATED: May 16, 2018
+     * DATE UPDATED: May 16, 2018
 	 */
 
     function __construct() {
@@ -45,6 +45,22 @@ class triuneJRS extends MY_Controller {
         $this->load->view('bamjrs/createdRequest', $data);
     }
 
+	public function ICTCreateRequest() {
+        $this->load->view('ictjrs/create');
+    }
 
+    public function ICTCreateRequestConfirmation() {
+		$data['requestDescription'] = $_POST["requestDescription"];
+		$data['jobClassification'] = $_POST["jobClassification"];
+		$data['dateNeeded'] = $_POST["dateNeeded"];
+
+
+        $this->load->view('ictjrs/createConfirmation', $data);
+    }
+
+    public function ICTCreatedRequest() {
+		$data['ID'] = $_POST["ID"];
+        $this->load->view('ictjrs/createdRequest', $data);
+    }
 
 }

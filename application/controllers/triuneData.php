@@ -11,7 +11,7 @@ class triuneData extends MY_Controller {
 	 * Since this controller is set as the default controller in
 	 * config/routes.php, it's displayed at http://tua.edu.ph/triune
 	 *
-	 * AUTHOR: Randy D. Lagdaan
+	 * AUTHOR: Abigail Gusto
 	 * DESCRIPTION: Data Controller.  
 	 * DATE CREATED: April 22, 2018
      * DATE UPDATED: April 26, 2018
@@ -59,6 +59,15 @@ class triuneData extends MY_Controller {
 			echo json_encode($results);
 	}
 
+	public function getJobClassification() {
+		$results = $this->_getRecordsData($data = 'jobClassification'), 
+			$tables = array('triune_job_classification'), $fieldName = null, $where = null, $join = null, $joinType = null, 
+			$sortBy = array('jobClassification'), $sortOrder = array('asc'), $limit = null, 
+			$fieldNameLike = null, $like = null, 
+			$whereSpecial = null, $groupBy = null );
+
+			echo json_encode($results);
+	}
 
 	public function setRequestBAM() {
 
